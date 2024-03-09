@@ -50,7 +50,10 @@
     "typescript-eslint": "^7.1.1"
   },
   "dependencies": {
-    "@rolldown/node": "^0.0.5"
+    "@rolldown/node": "^0.0.5",
+    "citty": "^0.1.6",
+    "consola": "^3.2.3",
+    "pkg-types": "^1.0.3"
   },
   "scripts": {
     "prepare": "git config --local core.hooksPath .githooks",
