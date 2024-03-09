@@ -1,6 +1,6 @@
 {
   "name": "@kazupon/rolldown-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "CLI for rolldown like rollup CLI",
   "type": "module",
   "keywords": [
