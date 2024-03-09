@@ -2,7 +2,7 @@
 
 rolldown for CLI
 
-> [!WARMING]
+> [!WARNING]
 > 🚧 This is WIP
 
 ## ©️ License
