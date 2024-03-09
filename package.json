@@ -1,6 +1,6 @@
 {
   "name": "@kazupon/rolldown-cli",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "CLI for rolldown like rollup CLI",
   "type": "module",
   "keywords": [
@@ -50,14 +50,10 @@
     "typescript-eslint": "^7.1.1"
   },
   "dependencies": {
-    "@rolldown/node": "^0.0.5",
-    "citty": "^0.1.6",
-    "consola": "^3.2.3",
-    "pkg-types": "^1.0.3"
+    "@rolldown/node": "^0.0.5"
   },
   "scripts": {
     "prepare": "git config --local core.hooksPath .githooks",
-    "preinstall": "node ./scripts/preinstall.js",
     "release": "bumpp package.json --commit \"release: v\" --push --tag",
     "dev": "tsc -p tsconfig.json --watch",
     "build": "tsc -p tsconfig.json",
