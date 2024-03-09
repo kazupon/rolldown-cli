@@ -1,7 +1,7 @@
 {
   "name": "@kazupon/rolldown-cli",
   "version": "0.0.1",
-  "description": "rolldown for CLI",
+  "description": "CLI for rolldown like rollup CLI",
   "type": "module",
   "keywords": [
     "rolldown",
@@ -20,6 +20,7 @@
   "bugs": {
     "url": "https://github.com/kazupon/rolldown-cli/issues"
   },
+  "homepage": "https://github.com/kazupon/rolldown-cli#readme",
   "files": [
     "bin",
     "dist"
@@ -30,12 +31,19 @@
   "bin": {
     "rolldown": "./bin/cli.js"
   },
+  "packageManager": "pnpm@8.15.4",
+  "engines": {
+    "node": ">= 18"
+  },
   "devDependencies": {
     "@eslint/js": "8.57.0",
     "@types/node": "^20.11.25",
+    "bumpp": "^9.3.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.0.0",
+    "gh-changelogen": "^0.2.8",
     "globals": "^14.0.0",
+    "lint-staged": "^15.2.2",
     "npm-run-all2": "^6.1.2",
     "prettier": "^3.2.5",
     "typescript": "^5.4.2",
@@ -47,6 +55,7 @@
   "scripts": {
     "dev": "tsc -p tsconfig.json --watch",
     "build": "tsc -p tsconfig.json",
+    "test": "echo 'test!'",
     "fix": "run-p fix:*",
     "fix:prettier": "pnpm prettier --write",
     "fix:eslint": "pnpm eslint --fix",

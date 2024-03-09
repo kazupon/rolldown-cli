@@ -1,6 +1,6 @@
 # rolldown-cli
 
-rolldown for CLI
+CLI for rolldown like rollup CLI
 
 > [!WARNING]
 > 🚧 This is WIP
