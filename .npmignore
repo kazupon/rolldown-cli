@@ -1,6 +1,4 @@
 *.log
 *.swp
 *.tgz
-node_modules
-dist
 .eslintcache
